@@ -1,4 +1,5 @@
     <!-- Start Header -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <header class="themeix-aside">
         <!-- control bar -->
         <div class="control-bar">
@@ -46,3 +47,18 @@
      <!-- End SlideMenu ================-->
     </header>
     <!-- End Header -->
+
+    <script>
+        $(document).ready(function() {
+    $(window).scroll(function() {
+        $('section').each(function() {
+            if($(window).scrollTop() >= $(this).offset().top) {
+                var sectionId = $(this).attr('id');
+                $('nav ul li a').removeClass('nav-item-active');
+                $('nav ul li a[href="#' + sectionId + '"]').addClass('nav-item-active');
+            }
+        });
+    });
+});
+
+    </script>

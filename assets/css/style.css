@@ -443,9 +443,8 @@ object {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.themeix-nav-menu li:nth-child(odd) a{
-    border-bottom: 1px solid #abaaaa;
-}
+
+
 .themeix-nav-menu li:last-child a{
     border-bottom: 0;
 }
