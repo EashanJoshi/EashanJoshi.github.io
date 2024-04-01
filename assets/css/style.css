@@ -444,7 +444,6 @@ object {
   transform: scaleX(1);
 }
 
-
 .themeix-nav-menu li:last-child a{
     border-bottom: 0;
 }
