@@ -1,14 +1,6 @@
-- year: 2006-2017
-  logo: assets/images/facebook.png
-  url: http://facebook.com
-  desc: Facebook Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum, laborum maiores mollitia.
+- year: 2020-2021
+  logo: assets/images/yardi-logo.png
+  url: https://www.yardi.com
+  desc: As a Full-Stack Software Engineer I improved Trust Accounting's cloud platform performance and compliance using .NET and JavaScript by addressing 80+ defects and client issues, optimizing OLTP/OLAP SQL queries for 10% faster data visualization, implementing CI/CD practices for streamlined updates, and developing custom financial reports, reducing errors by 15% and project delays by 10%.
 
-- year: 1998-2000
-  logo: assets/images/google.png
-  url: http://google.com
-  desc: Google Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum, laborum maiores mollitia.
 
-- year: 1999-2003
-  logo: assets/images/envato.png
-  url: http://envato.com
-  desc: Envato Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum, laborum maiores mollitia.

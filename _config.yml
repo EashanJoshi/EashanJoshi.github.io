@@ -7,21 +7,21 @@
 #
 ####################################################
 
-title: tfolio- Responsive Blogging Ghost Template
-email: your-email@example.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Eashan Joshi
+email: eashanj4@gmail.com
+description: "Eashan Joshi's portfolio reveals a dynamic blend of software engineering prowess and a keen interest in health and fitness. His projects span from innovative software solutions to practical applications of data science and machine learning, highlighting his technical skills and creative problem-solving abilities. This unique combination of interests showcases his holistic approach to both professional and personal development.​"
+keywords: "Software, Software Engineer, data, data scientist, machine learning, Artificial Intelligence, responsive, fitness"
+url: "http://eashanjoshi.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  EashanJoshi
 
-facebook_url: 'http://facebook.com/themeix'
+# facebook_url: 'http://facebook.com/themeix'
 twitter_url: 'http://twitter.com/themeix_ltd'
 github_url: 'http://github.com/themeix'
-youtube_url: 'http://youtube.com/themeix'
-google_plus_url: 'http://plus.google.com'
-pinterest_url: 'http://pinterest.com'
+# youtube_url: 'http://youtube.com/themeix'
+# google_plus_url: 'http://plus.google.com'
+# pinterest_url: 'http://pinterest.com'
 
 # Build settings
 markdown: kramdown

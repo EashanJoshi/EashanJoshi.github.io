@@ -1,23 +1,19 @@
-- title: Adobe Photoshop
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
-  progress: 75%
+- title: Programming Languages and Databases
+  desc: Python, JAVA, VB.NET, C++, R, SQL, NoSQL, Amazon DynamoDB, AWS Aurora, MongoDB
+  progress: 80%
 
-- title: Web Design
-  desc: Web Design sit amet, consectetur adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
-  progress: 68% 
+- title: Machine Learning Libraries
+  desc: LLM, Scikit-learn, Numpy, Pandas, Seaborn, Keras, NLP, PyTorch, Reinforcement Learning, Tensorflow
+  progress: 80%
 
-- title: Back-End Development
-  desc: Back End adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
+- title: Data Processing and Management
+  desc: OLTP, OLAP, ETL, Data Pipelines, AWS Lambda, AWS S3
   progress: 90%
 
-- title: Javascript
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
-  progress: 55%
+- title: Professional Softwares and Tools
+  desc: AWS Services, .NET, SAS, Pentaho, Tableau, PowerBI, SQL Server, Kubernetes
+  progress: 70%
 
-- title: HTML5 And CSS3
-  desc: Web Design sit amet, consectetur adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
-  progress: 88% 
-
-- title: Adobe Illustrator
-  desc: Back End adipisicing elit. Assumenda non in vitae animi aliquam facere minima molestiae veritatis.
-  progress: 20%
+- title: Web Technologies
+  desc: HTML, XML, CSS, PHP, JavaScript, JSON
+  progress: 85%

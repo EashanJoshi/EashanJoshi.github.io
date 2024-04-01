@@ -769,6 +769,55 @@ object {
     font-size:14px;
     
 }
+
+.projects-box{
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-bottom:30px;
+    position:relative;
+    cursor:pointer;
+    -webkit-transition: 0.5s all;
+    transition:0.5s all;
+    width: 100%;
+    display: block;
+}
+
+.projects-box:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.projects-box .projects-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    opacity:0;
+    transition:1s all;
+    padding-top: 130px;
+}
+.projects-box:before{
+    content: "";
+    background-image: url(../images/skills-box-shadow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    opacity:0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: 0.5s all;
+    transition:0.5s all;
+}
+.projects-box:hover:before{
+    opacity:1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
 .skills-box{
     background-color: #f0f0f0;
     padding: 40px;
@@ -777,9 +826,22 @@ object {
     cursor:pointer;
     -webkit-transition: 0.5s all;
     transition:0.5s all;
+    display: block;
 }
 .skills-box:hover{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.skills-box .skills-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    opacity:0;
+    transition:1s all;
+    padding-top: 130px;
 }
 .skills-box:before{
     content: "";
@@ -1082,6 +1144,7 @@ object {
     position: relative;
     max-height: 335px;
     overflow: hidden;
+    
 }
 .portfolio-item img{
     width:100%;
@@ -1097,6 +1160,8 @@ object {
     z-index:1;
     cursor:pointer;
     margin-bottom:30px;
+    padding: 5px; /* Optional: Adjusts padding inside the border */
+    background-color: #f0f0f0;
 }
 .portfolio-item .portfolio-overlay{
     position: absolute;
@@ -1134,6 +1199,42 @@ object {
     color: rgba(0,0,0,.6);
     
 }
+
+.image-container {
+    position: relative;
+    display: inline-block; /* or block depending on layout */
+  }
+  
+  .image-container img {
+    display: block; /* Ensures the image takes up the full container width */
+    max-width: 100%; /* Responsive images */
+  }
+  
+  .project-link-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Style your button as needed */
+  }
+  .project-link-btn::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* Adjust as needed to position correctly above the button */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Or any width you prefer */
+    height: 1px; /* Thickness of the line */
+    background-color: #000; /* Color of the line */
+  }
+  
+  .project-title {
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+    font-size: 18px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+  }
+  
 
 /* 2.6 blog */
 .blog{
@@ -1293,8 +1394,8 @@ object {
 .contact{
     background-color:#ffffff;
     position:relative;
-    background-image:url(../images/contact-bg.png);
-    background-position:right top;
+    background-image:url(../images/contactbg1.jpg);
+    background-position:calc(100% - 45px);
     background-repeat:no-repeat;
     
 }
