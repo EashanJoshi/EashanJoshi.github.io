@@ -1423,6 +1423,7 @@ object {
     position: relative;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
+    width: 110%;
 }
 .contact-box:last-child {
     margin-bottom:60px;
