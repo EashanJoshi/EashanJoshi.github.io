@@ -1,17 +1,17 @@
 
-        <!-- Start Portfolio ===================================-->
+        <!-- Start Portfolio ===================================
 <section class="full-page pd-0 clearfix" id="portfolio">
     <div class="portfolio">
         <div class="container-fluid">
             <div class="portfolio-wrapper text-center">
                 <div class="section-title">
-                    <!--<div class="border-center"></div>-->
+                    <div class="border-center"></div>
                     <h2>view my projects</h2>
                     <div class="border-center"></div>
                 </div>
                 <div class="row">
                     {% for projects_data in site.data.projects  %}
-                    <!--<div class="col-lg-4 col-md-6">-->   
+                    <div class="col-lg-4 col-md-6">  
 
                         <div class="skills-box wow fadeIn text-center" onclick="window.open('{{projects_data.link}}', '_blank')">
                             <h5>{{projects_data.title}}</h5>
@@ -22,7 +22,7 @@
                             </div>
                             <p class="click-instruction">Click on this box</p>    
                         </div>
-                    <!--</div>-->
+                    </div>
                     {% endfor %}
                 </div>
                 
@@ -31,7 +31,7 @@
             </div>
         </div>
     
-</section>
+</section>-->
 <!-- End Portfolio ===================================-->
 
 <!-- PROJECT 1 
@@ -60,3 +60,38 @@
                             </a>
                         </div>
                     </div>-->
+
+<!-- Start Portfolio ===================================-->
+<!-- Start Portfolio ===================================-->
+<section class="full-page pd-0 clearfix" id="portfolio">
+    <div class="portfolio">
+        <div class="container-fluid">
+            <div class="portfolio-wrapper text-center">
+                <div class="section-title">
+                    <!--<div class="border-center"></div>-->
+                    <h2>view my projects</h2>
+                    <div class="border-center"></div>
+                </div>
+                <div class="row">
+                    {% for projects_data in site.data.projects %}
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-box wow fadeIn text-center" onclick="window.open('{{projects_data.link}}', '_blank')">
+                            <img src="{{projects_data.image}}" class="project-image">
+                            <div class="project-overlay">
+                                <a href="{{projects_data.link}}" class="project-link-btn" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h5>{{projects_data.title}}</h5>
+                            <p>{{projects_data.tech}}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Portfolio ===================================-->
+
+<!-- End Portfolio ===================================-->

@@ -1,27 +1,32 @@
-- title: Quantitative Analysis of ChatGPT's Efficacy in Software Debugging Prompts and Introduction to Dynamic Prompt Engineering
+- title: DebugMate - Debugging Prompt Enhancer
   tech: Python, OpenAI API, NLP
   desc: This project evaluates ChatGPT's efficiency in software debugging using DevGPT data, including GitHub issues and commits. It includes sentiment analysis of issue descriptions, calculation of average resolution times across programming languages, and correlation between resolution times and language complexity. Additionally, it features a dynamic prompt engineering prototype using a multi-turn approach.
   link: https://github.com/EashanJoshi/Quantitative-Analysis-of-ChatGPT-s-Efficacy-in-Software-Debugging-Prompts
+  image: "/assets/images/proj_1b.jpg"
 
 - title: Duplicate Bug Report Detection using Siamese Convolutional Neural Network
   tech: Python, TensorFlow
   desc: This project analyzes software bug reports for Eclipse, Firefox, and Mobile platforms using advanced data science and machine learning techniques. It includes data preprocessing, BM25 for information retrieval, LDA+GloVe for topic modeling, and Siamese CNN for deep learning analysis. Statistical and descriptive analyses reveal patterns in bug report similarities, with t-SNE visualizations highlighting textual similarities and disparities.
   link: https://github.com/EashanJoshi/Duplicate-Bug-Report-Detection-using-Siamese-Convolutional-Neural-Network
+  image: "/assets/images/proj_2b.jpg"
 
-- title: Options Pricing Models
+- title: VolatilityX - Cutting-Edge Options Pricing Model
   tech: Python, ML, Statistics
   desc: This project implements advanced option pricing models using Black-Scholes and Binomial Tree methodologies for European and American call options. It integrates real-time data from Yahoo Finance, conducts sensitivity analysis, generates implied volatility surfaces, and includes a user-interactive Python application for dynamic option pricing and analysis.
   link: https://github.com/EashanJoshi/Options-Pricing-Models
+  image: "/assets/images/proj_3b.jpg"
 
 - title: Advanced Financial Analysis and Risk Assessment of Listed Companies (Industry project)
   tech: Python, SciKit-Learn
   desc: This project, developed for FinSharpe, a SEBI registered investment advisor, analyzes financial data to identify investments with optimal risk-reward balances. Using Python and Pandas, it applies filters such as company scale, drawdowns, financial slopes, and debt ratios, alongside the proprietary FinSharpe score. The project focuses on risk assessment using metrics like volatility, beta, and drawdowns, showcasing the integration of data science and financial analysis to enhance investment decision-making.
   link: https://github.com/EashanJoshi/Advanced-Financial-Analysis-Risk-Assessment-of-Listed-Companies-FinSharpe-
+  image: "/assets/images/proj_4b.jpeg"
 
 - title: Multiclass Image Classification Using Deep Convolutional Neural Network
   tech: Python, TensorFlow
   desc: This project uses TensorFlow and the Tiny ImageNet dataset for image classification. It includes a Jupyter notebook for setting up TensorFlow, preprocessing data, building and training models, and evaluating performance. The project provides insights into model accuracy across categories, serving as a learning resource for TensorFlow-based image recognition.
   link: https://github.com/EashanJoshi/Image-Classification-DCNN
+  image: "/assets/images/proj_5b1.jpg"
 
 
 

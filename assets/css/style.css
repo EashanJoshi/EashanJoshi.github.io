@@ -1241,6 +1241,64 @@ object {
     color: #333; /* Adjust as needed */
   }
   
+/* Reduce the size of the project box */
+.project-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s all;
+    width: 250px; /* Adjust the width as needed */
+    height: 300px;
+    display: inline-block;
+}
+
+/* Project image container */
+.project-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+/* Project image */
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay effect */
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Show overlay on hover */
+.project-box:hover .project-overlay {
+    opacity: 1;
+}
+
+/* Project link button */
+.project-link-btn {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 
 /* 2.6 blog */
 .blog{

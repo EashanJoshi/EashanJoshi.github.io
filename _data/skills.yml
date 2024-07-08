@@ -1,19 +1,14 @@
 - title: Programming Languages and Databases
   desc: Python, JAVA, VB.NET, C++, R, SQL, NoSQL, Amazon DynamoDB, AWS Aurora, MongoDB
-  progress: 80%
 
 - title: Machine Learning Libraries
   desc: LLM, Scikit-learn, Numpy, Pandas, Seaborn, Keras, NLP, PyTorch, Reinforcement Learning, Tensorflow
-  progress: 80%
 
 - title: Data Processing and Management
   desc: OLTP, OLAP, ETL, Data Pipelines, AWS Lambda, AWS S3
-  progress: 90%
 
 - title: Professional Softwares and Tools
   desc: AWS Services, .NET, SAS, Pentaho, Tableau, PowerBI, SQL Server, Kubernetes
-  progress: 70%
 
 - title: Web Technologies
   desc: HTML, XML, CSS, PHP, JavaScript, JSON
-  progress: 85%
