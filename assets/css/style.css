@@ -1458,14 +1458,15 @@ object {
 .contact{
     background-color:#ffffff;
     position:relative;
-    background-image:url(../images/IMG_1010_copy.jpg);
-    background-position:calc(100% - 45px);
+    align-items: center;
+    display: flex;
     background-repeat:no-repeat;
     
 }
 .contact-wrapper .border-center{
     height:1px;
     width:240px;
+    align-items: center;
     margin:0px auto;
     background:#0e0e0e;
 }
@@ -1477,11 +1478,14 @@ object {
     border: 2px solid #cccccc;
     background-color: #ffffff;
     padding: 60px 30px 30px;
+    margin: auto 225px;          /* Center the box horizontally */
     margin-bottom: 60px;
     position: relative;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
-    width: 110%;
+    width: 150%;                 /* Set a reasonable width */
+    max-width: 500px;           /* Optional: Set a maximum width */
+    text-align: center;         /* Center the content inside the box */
 }
 .contact-box:last-child {
     margin-bottom:60px;
