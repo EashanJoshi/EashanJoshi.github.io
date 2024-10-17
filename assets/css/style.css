@@ -1478,15 +1478,16 @@ object {
     border: 2px solid #cccccc;
     background-color: #ffffff;
     padding: 60px 30px 30px;
-    margin: auto 225px;          /* Center the box horizontally */
+    margin: 0 auto;           /* Center the box horizontally */
     margin-bottom: 60px;
     position: relative;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
-    width: 150%;                 /* Set a reasonable width */
-    max-width: 500px;           /* Optional: Set a maximum width */
-    text-align: center;         /* Center the content inside the box */
+    width: 110%;               /* Use a percentage-based width for responsiveness */
+    max-width: 500px;         /* Set a maximum width */
+    text-align: center;       /* Center the content inside the box */
 }
+
 .contact-box:last-child {
     margin-bottom:60px;
 }
