@@ -1,12 +1,17 @@
 <div class="row">
    {% for work_info in site.data.work_history %}
-    <div class="col-md-4 col-sm-12">
+    <div class="col-md-12 col-sm-12 mb-4">
         <div class="work-history-wrapper wow fadeIn">
             <div class="work-history-img">
                 <a href="{{work_info.url}}"><img src="{{work_info.logo | relative_url}}" alt="{{work_info.url}}"/></a>
             </div>
             <span>{{work_info.year}}</span>
-            <p>{{work_info.desc}}</p>
+            <ul class="work-desc">
+                {% for point in work_info.desc %}
+                  <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+              
         </div>
     </div>
     {% endfor %}

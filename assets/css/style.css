@@ -1108,7 +1108,7 @@ object {
     padding-right:70px;
 }
 .work-history-wrapper{
-    border: 2px solid #cccccc;
+    /* border: 2px solid #cccccc; */
     padding: 30px;
 }
 .work-history-wrapper span{
@@ -1122,8 +1122,23 @@ object {
     margin-bottom:10px;
 }
 .work-history-img img{
-    max-width:100%;
+    max-width:50%;
+    height: auto;
 }
+.work-desc {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;    /* 🔹 This ensures left alignment */
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .work-desc li {
+    margin-bottom: 8px;
+    text-align: left;    /* 🔹 Ensures each point is left-aligned */
+  }
+  
+  
 /* 2.5 portfolio */
 .click-instruction {
     font-size: 14px;

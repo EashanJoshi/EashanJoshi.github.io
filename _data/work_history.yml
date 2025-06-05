@@ -1,16 +1,27 @@
-- year: 2023-2025
-  logo: assets/images/yardi-logo.png
-  url: https://www.yardi.com
-  desc: As a Full-Stack Software Engineer I improved Trust Accounting's cloud platform performance and compliance using .NET and JavaScript by addressing 80+ defects and client issues, optimizing OLTP/OLAP SQL queries for 10% faster data visualization, implementing CI/CD practices for streamlined updates, and developing custom financial reports, reducing errors by 15% and project delays by 10%.
+- year: Aug. 2023 - May. 2025
+  logo: assets/images/RIT_cmyk_hor_k.jpg
+  url: https://www.rit.edu/computing/department-software-engineering#latest-news
+  desc:
+    - Built backend infrastructure for a retrieval-augmented generation (RAG) system using Python, OpenAI API, and vector search, boosting downstream task performance by 3x through context aware prompt injection
+    - Designed high-throughput GPU data pipelines with CUDA, processing 5M+ ChatGPT prompt logs and extracting 15K+ unique prompt patterns to support model tuning and evaluation
+    - Architected graph-based systems in Neo4j using APOC procedures to analyze 220K+ Maven Central libraries, uncovering patterns in dependency growth and release cadence for IEEE - ICMI research
 
-- year: 2023-2021
-  logo: assets/images/yardi-logo.png
+- year: May. 2023 - Aug. 2021
+  logo: assets/images/finsharpe_logo.webp
   url: https://www.yardi.com
-  desc: As a Full-Stack Software Engineer I improved Trust Accounting's cloud platform performance and compliance using .NET and JavaScript by addressing 80+ defects and client issues, optimizing OLTP/OLAP SQL queries for 10% faster data visualization, implementing CI/CD practices for streamlined updates, and developing custom financial reports, reducing errors by 15% and project delays by 10%.
+  desc:
+    - Engineered low-latency backend components in C++ to support trading strategy execution, improving system responsiveness under real-time market conditions
+    - Containerized and orchestrated core services using Docker and Kubernetes, reducing deployment downtime from 3 hours/month to under 15 minutes and improving system reliability
+    - Integrated Python-based machine learning models to analyze high-risk securities and embed VaR-driven logic into backend pipelines, contributing to an $850,000 investment
 
-- year: 2020-2021
+- year: Sept. 2020 - Sept. 2021
   logo: assets/images/yardi-logo.png
   url: https://www.yardi.com
-  desc: As a Full-Stack Software Engineer I improved Trust Accounting's cloud platform performance and compliance using .NET and JavaScript by addressing 80+ defects and client issues, optimizing OLTP/OLAP SQL queries for 10% faster data visualization, implementing CI/CD practices for streamlined updates, and developing custom financial reports, reducing errors by 15% and project delays by 10%.
+  desc:
+    - Improved financial management efficiency by developing 80+ components in the Trust Accounting Application using C#, .NET JavaScript and SQL, leading to a $300,000 reduction in operational costs
+    - Designed and implemented custom programming solutions using VB.NET and SQL, automating manual workflows and reducing data processing time by 70%, saving 60+ hours of analyst effort per month
+    - Generated robust data pipelines and scalable business solutions using Apache Spark and C#, reducing financial data error rate by 10% in insurance management systems
+    - Created REST APIs within the Trust Accounting module of Yardi Voyager, automating workflows and addressing custom programming requests to meet unique client requirements
+
 
 
