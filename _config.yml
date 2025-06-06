@@ -17,8 +17,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  EashanJoshi
 
 # facebook_url: 'http://facebook.com/themeix'
-twitter_url: 'http://twitter.com/themeix_ltd'
-github_url: 'http://github.com/themeix'
+# twitter_url: 'http://twitter.com/themeix_ltd'
+# github_url: 'http://github.com/themeix'
 # youtube_url: 'http://youtube.com/themeix'
 # google_plus_url: 'http://plus.google.com'
 # pinterest_url: 'http://pinterest.com'
