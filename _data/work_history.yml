@@ -6,7 +6,7 @@
     - Designed high-throughput GPU data pipelines with CUDA, processing 5M+ ChatGPT prompt logs and extracting 15K+ unique prompt patterns to support model tuning and evaluation
     - Architected graph-based systems in Neo4j using APOC procedures to analyze 220K+ Maven Central libraries, uncovering patterns in dependency growth and release cadence for IEEE - ICMI research
 
-- year: May. 2023 - Aug. 2021
+- year: May. 2023 - Aug. 2023
   logo: assets/images/finsharpe_logo.webp
   url: https://www.yardi.com
   desc:
